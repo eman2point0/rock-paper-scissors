@@ -2,6 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css" />
   </head>
+  <header></header>
+  <body>
+    <div class="content">
+      <div class="scoreboard">
+        <div class="player">
+          PLAYER
+          <p class="score">0</p>
+          <p class="choice">Chose!</p>
+        </div>
+        <div class="computer">
+          COMPUTER
+          <p class="score">0</p>
+          <p class="choice">Chose!</p>
+        </div>
+      </div>
+      <div class="winAnnouncement">
+        <p id="winner">First to 5 Wins!</p>
+      </div>
+      <div class="playArea">
+        <button id="playButton">Press to Play!</button>
+        <div class="options">
+          <button id="rockBtn">Rock</button>
+          <button id="paperBtn">Paper</button>
+          <button id="scissorsBtn">Scissors</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="scripts.js"></script>
 </html>
